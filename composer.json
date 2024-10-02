@@ -1,0 +1,16 @@
+{
+    "name": "lithemod/httpexception",
+    "description": "Custom HTTP exceptions.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lithe\\Exceptions\\Http\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT",
+    "scripts": {
+        "test": "phpunit"
+    }
+}
